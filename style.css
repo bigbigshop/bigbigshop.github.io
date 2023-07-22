@@ -62,6 +62,11 @@
     cursor: pointer;
 }
 
+.midBox{
+	display:flex; 
+	justify-content:center;
+}
+
 /* Define the animation */
 @keyframes gradient-loop {
     0% {
@@ -227,13 +232,13 @@ button:hover {
 .footer {
     width: 100%;
     font-size: 16px;
-    color: var(--text-color);
+    color: white;
     text-align: center;
     margin-top: 40px;
     padding-bottom: 20px;
     padding-top: 20px;
     font-weight: bold;
-    background-color: var(--secondary-color);
+    background-color: #607d8b;;
 }
 
 .preGif {
@@ -261,4 +266,11 @@ button:hover {
         font-size: 14px;
         padding: 8px 16px;
     }
+
+
+	.midBox{
+		display:flex; 
+		flex-direction: column;
+		justify-content:center;
+	}
 }

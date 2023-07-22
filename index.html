@@ -4,7 +4,7 @@
 <head>
 	<title>教学</title>
 	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=0, user-scalable=0">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="style.css">
 	<link rel="stylesheet" href="assets/libs/cute-alert/style.css">
 	<script src="script.js"></script>
@@ -21,14 +21,19 @@
 		<div class="wrapper">
 			<div class="imgBorder">
 				<div>
-					<button id="bookmarkScript" class="copy-button center gradient-loop" href="">拷貝书签的URL地址</button>
+					<button id="bookmarkScript" class="copy-button center gradient-loop" style="background-color:#2196f3" href="">1. 拷貝书签的URL地址</button>
 				</div>
-				<div>
-					<button id="mainScript" class="copy-button center gradient-loop">一键拷貝插件(只需要做1题，系统帮你做29题)</button>
+				<div style="border: solid 1px blue; border-radius: 10px;">
+					<h2 style="text-align:center;">2. 三选一</h2>
+					<div class="midBox">					
+						<button id="mainScript25" class="copy-button gradient-loop" style="background-color:rgb(222, 162, 1);">一键拷貝插件(只需要做5题，系统帮你做25题)</button>
+						<button id="mainScript29" class="copy-button gradient-loop" style="background-color:rgb(222, 162, 1);">一键拷貝插件(只需要做1题，系统帮你做29题)</button>
+						<button id="mainScript30" class="copy-button gradient-loop" style="background-color:rgb(222, 162, 1);">一键拷貝插件(系统帮你做晒全部题目)</button>
+					</div>
 				</div>
 			</div>
 			<div class="inline-block-btn">
-				<button class="gifBtn" onclick="window.location.href='preGif.html'">效果GIF</button>
+				<button class="gifBtn" onclick="window.location.href='preGif.html'">效果预览</button>
 				<button class="tutBtn" onclick="window.location.href='tut.html'">使用教学</button>
 			</div>
 		</div>
