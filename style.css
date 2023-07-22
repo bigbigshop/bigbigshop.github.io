@@ -1,12 +1,15 @@
 .overflow-hidden {
-    overflow: hidden;
+    //overflow: hidden;
 }
 
 .header {
     overflow: hidden;
     background-color: rgb(89, 109, 122);
     height: 56px;
+	width: 100vw;
     box-shadow: 0 4px 4px rgba(150, 150, 150, 0.5);
+	position:fixed;
+	z-index:999;
 }
 
 .title {
@@ -22,6 +25,7 @@
 
 .site-content {
     flex: 1 0 auto;
+	padding-top: 56px;
 }
 
 .center {
@@ -222,11 +226,11 @@ button:hover {
 }
 
 .footerWraper {
-    position: absolute;
+    position: relative;
     left: 0;
     right: 0;
     bottom: 0;
-    overflow: hidden;
+    //overflow: hidden;
 }
 
 .footer {
